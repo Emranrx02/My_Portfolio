@@ -30,10 +30,10 @@ export default function MyExpereience() {
     },
   ];
   return (
-    <ContentLayout>
+    <ContentLayout className="px-0">
       <div className="my-20 ">
         <h2 className="text-3xl text-center  font-bold">My Experience</h2>
-        <div>
+        <div className=" w-full">
           {MyExp.map((item, index) => (
             <ExperienceBox
               {...item}

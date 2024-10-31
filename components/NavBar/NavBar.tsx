@@ -5,10 +5,10 @@ import Twitter from "../Icons/Twitter";
 export default function NavBar() {
   const NavItem = [
     { label: "Home", slug: "home" },
-    { label: "Case studies", slug: "case-study" },
-    { label: "Testimonials", slug: "testimonials" },
-    { label: "Recent work", slug: "recent-work" },
-    { label: "Get In Touch", slug: "get-in-touch" },
+    { label: "Skills", slug: "skills" },
+    { label: "Experience", slug: "experience" },
+    { label: "Work", slug: "work" },
+    { label: "Contact", slug: "contact" },
   ];
   return (
     <nav className="bg-[#1B1B1B] text-xs md:text-base sm:text-sm z-50 fixed w-full translate-x-[-50%] left-[50%] py-6 shadow-lg px-5 rounded-b-xl  max-w-[80rem]">

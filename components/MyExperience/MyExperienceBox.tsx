@@ -18,10 +18,10 @@ export default function ExperienceBox({
       <div
         className={classNames(
           isReverse ? "md:flex-row-reverse" : "",
-          "flex md:flex-row flex-col-reverse px-5 my-16 rounded-2xl py-2.5 items-center "
+          "flex md:flex-row flex-col-reverse  px-5 my-16  rounded-2xl py-2.5 items-center "
         )}
       >
-        <div className="w-full px-5">
+        <div className="w-full ">
           <h2 className="text-2xl sm:text-4xl font-bold">{Headline}</h2>
           <p className="mt-5 sm:text-base text-sm">{Text}</p>
         </div>
@@ -33,7 +33,7 @@ export default function ExperienceBox({
         >
           <Image
             src={imgUrl}
-            className="max-w-[25rem] md:mb-0 mb-10 shadow-md max-h-[25rem] object-cover"
+            className="md:max-w-[25rem] md:mb-0 mb-10 shadow-md max-h-[25rem] object-cover"
             alt=""
             width={1920}
             height={1080}
