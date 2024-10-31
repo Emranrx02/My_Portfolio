@@ -1,10 +1,11 @@
 import Image from "next/image";
 import ContentLayout from "../Layouts/ContentLayout";
 import WorkedWith from "./Worked";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 export default function HeaderSection() {
   return (
-    <section className="bg-[#080808] py-[9.1rem] ">
+    <section id="home" className="bg-[#080808] py-[9.1rem] ">
       <ContentLayout>
         <div className="flex relative md:flex-row  flex-col-reverse w-full md:mt-16 justify-center items-center">
           <div className="w-full ">
@@ -19,8 +20,9 @@ export default function HeaderSection() {
               consistently drive results while inspiring teams to achieve their
               goals.
             </p>
-            <button className="bg-[#3F8E00] border border-[#62BA1B] text-white px-14 py-4  font-semibold tracking-wider  mt-7 rounded-md">
-              {"Let's"} get started
+            <button className="bg-[#3F8E00] flex gap-2.5 items-center border border-[#62BA1B] text-white px-14 py-4  font-semibold tracking-wider  mt-7 rounded-md">
+              <span> {"Let's"} get started</span>
+              <MdOutlineKeyboardArrowRight size={27} />
             </button>
           </div>
           <div className="w-full ">

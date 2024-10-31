@@ -46,7 +46,7 @@ export default function MySkillSet() {
     },
   ];
   return (
-    <div className="bg-[#080808] -mt-2 p-1 pb-24">
+    <div id="skills" className="bg-[#080808] scroll-m-28 -mt-2 p-1 pb-24">
       <ContentLayout>
         <h1 className="text-4xl font-bold text-center mb-24 text-white">
           The Skills I Can add to the Table

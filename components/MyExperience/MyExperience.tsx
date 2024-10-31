@@ -31,7 +31,7 @@ export default function MyExpereience() {
   ];
   return (
     <ContentLayout className="px-0">
-      <div className="my-20 ">
+      <div id="experience" className="my-20 scroll-m-28">
         <h2 className="text-3xl text-center  font-bold">My Experience</h2>
         <div className=" w-full">
           {MyExp.map((item, index) => (
