@@ -25,11 +25,9 @@ export default function Testimonials() {
     },
   ];
   return (
-    <div className="bg-[#080808] pt-1 pb-10">
+    <div className=" pt-1 pb-10">
       <ContentLayout>
-        <h2 className="text-4xl text-white text-center my-20 font-bold">
-          Testimonials
-        </h2>
+        <h2 className="text-4xl  text-center my-20 font-bold">Testimonials</h2>
         <div className="grid md:grid-cols-2 gap-x-5 gap-y-10">
           {testimonials.map((item) => (
             <TestimonialBox {...item} key={item.imgUrl} />
