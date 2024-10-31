@@ -1,19 +1,45 @@
 import Image from "next/image";
+import ContentLayout from "../Layouts/ContentLayout";
+import classNames from "classnames";
 
-export default function ExperienceBox() {
+export default function ExperienceBox({
+  imgUrl,
+  Headline,
+  Text,
+  isReverse,
+}: {
+  imgUrl: string;
+  Headline: string;
+  Text: string;
+  isReverse: boolean;
+}) {
   return (
-    <div>
-      <div>
-        <h2>Viabtc Technology Ltd.</h2>
-        <p>
-          As a part-time Digital Marketing Executive, I specialize in navigating
-          the dynamic world of blockchain. Proficient in Telegram, Twitter, and
-          Instagram management, I bring strategic prowess to enhance your online
-          presence. {"Let's"} synergize marketing efforts and explore the
-          limitless potential of the digital landscape together.
-        </p>
+    <ContentLayout>
+      <div
+        className={classNames(
+          isReverse ? "md:flex-row-reverse" : "",
+          "flex md:flex-row flex-col-reverse px-5 my-16 rounded-2xl py-2.5 items-center "
+        )}
+      >
+        <div className="w-full px-5">
+          <h2 className="text-2xl sm:text-4xl font-bold">{Headline}</h2>
+          <p className="mt-5 sm:text-base text-sm">{Text}</p>
+        </div>
+        <div
+          className={classNames(
+            "w-full flex ",
+            isReverse ? "" : "flex-row-reverse"
+          )}
+        >
+          <Image
+            src={imgUrl}
+            className="max-w-[25rem] md:mb-0 mb-10 shadow-md max-h-[25rem] object-cover"
+            alt=""
+            width={1920}
+            height={1080}
+          />
+        </div>
       </div>
-      <div></div>
-    </div>
+    </ContentLayout>
   );
 }

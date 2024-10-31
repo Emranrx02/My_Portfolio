@@ -6,8 +6,8 @@ export default function HeaderSection() {
   return (
     <section className="bg-[#080808] py-[9.1rem] ">
       <ContentLayout>
-        <div className="flex relative md:flex-row flex-col w-full md:mt-16 justify-center items-center">
-          <div className="w-full order-2 md:order-1">
+        <div className="flex relative md:flex-row  flex-col-reverse w-full md:mt-16 justify-center items-center">
+          <div className="w-full ">
             <h1 className="text-white font-bold mb-5 text-4xl md:text-6xl">
               Hello! My name is Emran haque.
             </h1>
@@ -24,7 +24,7 @@ export default function HeaderSection() {
             </button>
           </div>
           <div className="w-full ">
-            <div className="rounded-full flex justify-center order-1 md:order-2 md:mb-0 mb-16  md:flex-row-reverse">
+            <div className="rounded-full flex justify-center  md:mb-0 mb-16  md:flex-row-reverse">
               <Image
                 src={"/hero.jpeg"}
                 className="max-w-[22rem] max-h-[22rem] object-cover rounded-full"
