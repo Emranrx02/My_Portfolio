@@ -31,7 +31,7 @@ export default function Contact() {
             <MdOutlineKeyboardArrowRight size={25} />
           </button>
         </div>
-        <div className="icons md:flex justify-center hidden items-center gap-7 ml-7 mr-2">
+        <div className="icons flex justify-center  items-center gap-7 ml-7 mr-2">
           <LinkedIn
             className="w-[2.5rem] border-b pt-1 pb-2 border-transparent hover:border-[#9C9C9C] cursor-pointer"
             fill="none"
