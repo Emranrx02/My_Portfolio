@@ -1,28 +1,28 @@
 import ContentLayout from "../Layouts/ContentLayout";
 import Image from "next/image";
 export default function Testimonials() {
-  const testimonials = [
-    {
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-      name: "Emran huqe",
-      imgUrl: "/hero.jpg",
-    },
-    {
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-      name: "Emran huqe",
-      imgUrl: "/hero.jpg",
-    },
-    {
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-      name: "Emran huqe",
-      imgUrl: "/hero.jpg",
-    },
-    {
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-      name: "Emran huqe",
-      imgUrl: "/hero.jpg",
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+  //     name: "Emran huqe",
+  //     imgUrl: "/hero.jpg",
+  //   },
+  //   {
+  //     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+  //     name: "Emran huqe",
+  //     imgUrl: "/hero.jpg",
+  //   },
+  //   {
+  //     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+  //     name: "Emran huqe",
+  //     imgUrl: "/hero.jpg",
+  //   },
+  //   {
+  //     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+  //     name: "Emran huqe",
+  //     imgUrl: "/hero.jpg",
+  //   },
+  // ];
   return (
     <div className=" pt-1 pb-10">
       <ContentLayout>

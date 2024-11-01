@@ -1,4 +1,3 @@
-import { FaFacebook } from "react-icons/fa";
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
 
 export default function SocialBox({

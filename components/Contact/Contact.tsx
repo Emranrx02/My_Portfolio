@@ -1,6 +1,3 @@
-import Behence from "../Icons/Behence";
-import LinkedIn from "../Icons/Linkedin";
-import Twitter from "../Icons/Twitter";
 import ContentLayout from "../Layouts/ContentLayout";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 export default function Contact() {

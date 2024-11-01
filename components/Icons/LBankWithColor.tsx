@@ -1,5 +1,3 @@
-import classNames from "classnames";
-
 export default function LBankWithColor({ className }: { className: string }) {
   return (
     <svg
