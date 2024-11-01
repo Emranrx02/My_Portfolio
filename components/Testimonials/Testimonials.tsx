@@ -1,6 +1,5 @@
 import ContentLayout from "../Layouts/ContentLayout";
-import TestimonialBox from "./TestimonalBox";
-
+import Image from "next/image";
 export default function Testimonials() {
   const testimonials = [
     {
@@ -27,12 +26,18 @@ export default function Testimonials() {
   return (
     <div className=" pt-1 pb-10">
       <ContentLayout>
-        <h2 className="text-4xl  text-center my-20 font-bold">Testimonials</h2>
-        <div className="grid md:grid-cols-2 gap-x-5 gap-y-10">
+        {/* <div className="grid md:grid-cols-2 gap-x-5 gap-y-10">
           {testimonials.map((item) => (
             <TestimonialBox {...item} key={item.imgUrl} />
           ))}
-        </div>
+        </div> */}
+        <Image
+          src={"/RoadMap.png"}
+          className="max-w-[50rem] w-full mx-auto"
+          width={1920}
+          height={1080}
+          alt="roadmap"
+        />
       </ContentLayout>
     </div>
   );

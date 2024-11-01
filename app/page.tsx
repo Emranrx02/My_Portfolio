@@ -5,6 +5,7 @@ import MyExpereience from "@/components/MyExperience/MyExperience";
 // import RecentWorkCarousel from "@/components/MyRecentWork/RecentWorkCarousel";
 import MySkillSet from "@/components/MySkillSet/MySkillSet";
 import NavBar from "@/components/NavBar/NavBar";
+import Socials from "@/components/Socials/Socials";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       <MySkillSet />
       <MyExpereience />
       <Testimonials />
-
+      <Socials />
       <Contact />
     </div>
   );

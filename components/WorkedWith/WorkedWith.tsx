@@ -9,6 +9,12 @@ import KTune from "../Icons/KTune";
 import LBank from "../Icons/Lbank";
 import Viabtc from "../Icons/Viabtc";
 import Ajax from "../Icons/Ajax";
+import AjaxWithColor from "../Icons/Ajaxwithcolor";
+import CoinExWithColor from "../Icons/CoinExWithColor";
+import KTuneWithColor from "../Icons/KTuneWithColor";
+import LBankWithColor from "../Icons/LBankWithColor";
+import ViabtcWithColor from "../Icons/ViabtcWithColor";
+import KajLabWithColor from "../Icons/KajLabWithColor";
 
 export default function WorkedWith() {
   const settings = {
@@ -34,18 +40,12 @@ export default function WorkedWith() {
       <h2 className="my-10 font-medium text-2xl">Worked with</h2>
       <div className="slider-container">
         <Slider {...settings}>
-          <WorkedWithBox
-            Icon={<CoinEx className="w-[7.5rem]" fill="black" />}
-          />
-          <WorkedWithBox
-            Icon={<KajLab className="w-[7.5rem]" fill="black" />}
-          />
-          <WorkedWithBox Icon={<KTune className="w-[7.5rem]" fill="black" />} />
-          <WorkedWithBox Icon={<LBank className="w-[7.5rem]" fill="black" />} />
-          <WorkedWithBox
-            Icon={<Viabtc className="w-[7.5rem]" fill="black" />}
-          />
-          <WorkedWithBox Icon={<Ajax className="w-[7.5rem]" fill="black" />} />
+          <WorkedWithBox Icon={<CoinExWithColor className="w-[7.5rem]" />} />
+          <WorkedWithBox Icon={<KajLabWithColor className="w-[7.5rem]" />} />
+          <WorkedWithBox Icon={<KTuneWithColor className="w-[7.5rem]" />} />
+          <WorkedWithBox Icon={<LBankWithColor className="w-[7.5rem]" />} />
+          <WorkedWithBox Icon={<ViabtcWithColor className="w-[7.5rem]" />} />
+          <WorkedWithBox Icon={<AjaxWithColor className="w-[7.5rem]" />} />
         </Slider>
       </div>
     </div>
