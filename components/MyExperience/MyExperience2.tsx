@@ -2,6 +2,7 @@
 import { useState } from "react";
 import classNames from "classnames";
 import Link from "next/link";
+import Tilt from "react-parallax-tilt";
 export default function ExperienceBox2({
   icons,
   Headline,
@@ -15,37 +16,39 @@ export default function ExperienceBox2({
 }) {
   const [isClicked, setClicked] = useState(false);
   return (
-    <div
-      onClick={() => setClicked(true)}
-      onMouseEnter={() => setClicked(true)}
-      onMouseLeave={() => setClicked(false)}
-      className=" cursor-pointer exp  w-full border-2 rounded-md border-black"
-    >
+    <Tilt>
       <div
-        className={classNames(
-          " pb-10   flex-col items-center",
-          !isClicked ? "flex" : "hidden"
-        )}
+        onClick={() => setClicked(true)}
+        onMouseEnter={() => setClicked(true)}
+        onMouseLeave={() => setClicked(false)}
+        className=" cursor-pointer exp  w-full border-2 rounded-md border-black"
       >
-        {icons}
-        <h1 className="text-4xl font-medium">{title}</h1>
-      </div>
-      <div
-        className={classNames(
-          "p-4  flex-col items-center",
-          isClicked ? "flex" : "hidden"
-        )}
-      >
-        <h1 className="text-xl font-bold mb-3">{Headline}</h1>
-        <p className="text-sm">{Text}</p>
-        <Link
-          href={"#"}
-          target="_blank"
-          className="bg-[#2B79D3] text-white text-sm font-bold px-5 py-2.5 rounded-full mt-7"
+        <div
+          className={classNames(
+            " pb-10   flex-col items-center",
+            !isClicked ? "flex" : "hidden"
+          )}
         >
-          Learn More
-        </Link>
+          {icons}
+          <h1 className="text-4xl font-medium">{title}</h1>
+        </div>
+        <div
+          className={classNames(
+            "p-4  flex-col items-center",
+            isClicked ? "flex" : "hidden"
+          )}
+        >
+          <h1 className="text-xl font-bold mb-3">{Headline}</h1>
+          <p className="text-sm">{Text}</p>
+          <Link
+            href={"#"}
+            target="_blank"
+            className="bg-[#2B79D3] text-white text-sm font-bold px-5 py-2.5 rounded-full mt-7"
+          >
+            Learn More
+          </Link>
+        </div>
       </div>
-    </div>
+    </Tilt>
   );
 }

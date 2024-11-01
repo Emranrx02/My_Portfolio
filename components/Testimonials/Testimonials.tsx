@@ -24,13 +24,8 @@ export default function Testimonials() {
   //   },
   // ];
   return (
-    <div className=" pt-1 pb-10">
+    <div id="roadmap" className=" pt-1 pb-10">
       <ContentLayout>
-        {/* <div className="grid md:grid-cols-2 gap-x-5 gap-y-10">
-          {testimonials.map((item) => (
-            <TestimonialBox {...item} key={item.imgUrl} />
-          ))}
-        </div> */}
         <Image
           src={"/RoadMap.png"}
           className="max-w-[50rem] w-full mx-auto"

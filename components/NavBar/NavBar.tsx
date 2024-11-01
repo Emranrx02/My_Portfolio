@@ -5,7 +5,7 @@ export default function NavBar() {
     { label: "Home", slug: "home" },
     { label: "Skills", slug: "skills" },
     { label: "Experience", slug: "experience" },
-    { label: "Work", slug: "work" },
+    { label: "Road Map", slug: "roadmap" },
     { label: "Contact", slug: "contact" },
   ];
   const handleClick = (item: string) => {
