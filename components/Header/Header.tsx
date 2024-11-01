@@ -29,7 +29,7 @@ export default function HeaderSection() {
             <div className="rounded-full flex justify-center  md:mb-0 mb-16  md:flex-row-reverse">
               <Image
                 src={"/hero.jpeg"}
-                className="max-w-[22rem] max-h-[22rem] object-cover rounded-full"
+                className="max-w-[18rem] max-h-[18rem] object-cover rounded-full"
                 width={1920}
                 height={1080}
                 alt="emran"

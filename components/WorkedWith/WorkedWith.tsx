@@ -3,6 +3,13 @@ import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import WorkedWithBox from "./WorkedWithBox";
+import CoinEx from "../Icons/CoinEx";
+import KajLab from "../Icons/KajLab";
+import KTune from "../Icons/KTune";
+import LBank from "../Icons/Lbank";
+import Viabtc from "../Icons/Viabtc";
+import Ajax from "../Icons/Ajax";
 
 export default function WorkedWith() {
   const settings = {
@@ -24,22 +31,22 @@ export default function WorkedWith() {
     ],
   };
   return (
-    <div className="my-20">
+    <div className="mt-52 my-20">
       <h2 className="my-10 font-medium text-2xl">Worked with</h2>
       <div className="slider-container">
         <Slider {...settings}>
-          <div className="max-w-[5rem] sm:max-w-[7rem]">
-            <Image src={`/exp-4.jpg`} width={1920} height={1080} alt="" />
-          </div>
-          <div className="max-w-[5rem] sm:max-w-[7rem]">
-            <Image src={`/exp-10.jpeg`} width={1920} height={1080} alt="" />
-          </div>
-          <div className="max-w-[5rem] sm:max-w-[7rem]">
-            <Image src={`/exp-11.jpeg`} width={1920} height={1080} alt="" />
-          </div>
-          <div className="max-w-[5rem] sm:max-w-[7rem]">
-            <Image src={`/exp-12.jpg`} width={1920} height={1080} alt="" />
-          </div>
+          <WorkedWithBox
+            Icon={<CoinEx className="w-[7.5rem]" fill="black" />}
+          />
+          <WorkedWithBox
+            Icon={<KajLab className="w-[7.5rem]" fill="black" />}
+          />
+          <WorkedWithBox Icon={<KTune className="w-[7.5rem]" fill="black" />} />
+          <WorkedWithBox Icon={<LBank className="w-[7.5rem]" fill="black" />} />
+          <WorkedWithBox
+            Icon={<Viabtc className="w-[7.5rem]" fill="black" />}
+          />
+          <WorkedWithBox Icon={<Ajax className="w-[7.5rem]" fill="black" />} />
         </Slider>
       </div>
     </div>
