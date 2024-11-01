@@ -5,7 +5,7 @@ import LBank from "../Icons/Lbank";
 import Viabtc from "../Icons/Viabtc";
 import ContentLayout from "../Layouts/ContentLayout";
 import ExperienceBox2 from "./MyExperience2";
-import ExperienceBox from "./MyExperienceBox";
+// import ExperienceBox from "./MyExperienceBox";
 
 export default function MyExpereience() {
   const MyExp = [

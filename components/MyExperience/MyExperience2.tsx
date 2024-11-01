@@ -1,7 +1,6 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import classNames from "classnames";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import Link from "next/link";
 export default function ExperienceBox2({
   icons,
