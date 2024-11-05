@@ -9,7 +9,12 @@ export default function ContentLayout({
   children: ReactNode;
 }) {
   return (
-    <section className={classNames("max-w-[70rem] mx-auto", className)}>
+    <section
+      className={classNames(
+        "max-w-[70rem] overflow-hidden sm:overflow-visible mx-auto",
+        className
+      )}
+    >
       {children}
     </section>
   );
