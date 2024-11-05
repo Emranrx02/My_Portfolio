@@ -1,5 +1,4 @@
 import { mailOptions, transporter } from "@/components/NodeMailer/index";
-import { NextApiRequest, NextApiResponse } from "next";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
@@ -14,7 +13,7 @@ export async function POST(req: NextRequest) {
       text: data.name + "\n" + data.message + " " + data.email,
     });
     return NextResponse.json("ok");
-  } catch (error: any) {
+  } catch (error) {
     console.log(error);
     return NextResponse.json("om");
   }
