@@ -5,12 +5,18 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import WorkedWith from "../WorkedWith/WorkedWith";
 import Tilt from "react-parallax-tilt";
 import Link from "next/link";
+import { motion } from "framer-motion";
 export default function HeaderSection() {
   return (
     <section id="home" className=" py-[9.1rem] ">
       <ContentLayout>
         <div className="flex relative md:flex-row  flex-col-reverse w-full md:mt-16 justify-center items-center">
-          <div className="w-full ">
+          <motion.div
+            initial={{ x: -200, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            className="w-full "
+          >
             <h1 className=" font-bold mb-5 text-2xl md:text-4xl">
               Hello! My name is Emran haque.
             </h1>
@@ -30,8 +36,13 @@ export default function HeaderSection() {
               <span> {"Let's"} get started</span>
               <MdOutlineKeyboardArrowRight size={27} />
             </Link>
-          </div>
-          <div className="w-full ">
+          </motion.div>
+          <motion.div
+            initial={{ x: 200, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            className="w-full "
+          >
             <Tilt>
               <div className="rounded-full flex justify-center  md:mb-0 mb-16  md:flex-row-reverse">
                 <Image
@@ -43,7 +54,7 @@ export default function HeaderSection() {
                 />
               </div>
             </Tilt>
-          </div>
+          </motion.div>
         </div>
         <WorkedWith />
       </ContentLayout>

@@ -12,7 +12,7 @@ export default function NavBar() {
     document.getElementById(item)?.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <nav className=" bg-[#13242C] text-white text-xs md:text-base sm:text-sm z-50 fixed w-full   py-6 shadow-lg px-5   ">
+    <nav className=" bg-[#1A1A1A] text-white text-xs md:text-base sm:text-sm z-50 fixed w-full   py-6 shadow-lg px-5   ">
       <div className="flex max-w-[70rem] mx-auto">
         <ul className="flex  justify-between w-full">
           {NavItem.map((item) => (

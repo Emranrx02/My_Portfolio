@@ -2,7 +2,7 @@ import ContentLayout from "../Layouts/ContentLayout";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 export default function Contact() {
   return (
-    <div id="contact" className="bg-[#080808] py-10">
+    <div id="contact" className="bg-[#1A1A1A] py-10">
       <ContentLayout>
         <h1 className="text-5xl text-center font-bold text-white">
           Get In Touch

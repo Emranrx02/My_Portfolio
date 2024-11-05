@@ -1,8 +1,10 @@
 "use client";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import classNames from "classnames";
 import Link from "next/link";
 import Tilt from "react-parallax-tilt";
+import useInviewHooks from "@/hooks/useInviewHooks";
+import { motion } from "framer-motion";
 export default function ExperienceBox2({
   icons,
   Headline,
@@ -14,14 +16,21 @@ export default function ExperienceBox2({
   Text: string;
   title: string;
 }) {
+  const ref = useRef(null);
+  const controllers = useInviewHooks(ref);
   const [isClicked, setClicked] = useState(false);
   return (
     <Tilt>
-      <div
+      <motion.div
+        animate={controllers}
+        ref={ref}
+        initial={{ y: 200, opacity: 0.5, scale: 0.5 }}
+        variants={{ visible: { y: 0, opacity: 1, scale: 1 } }}
+        transition={{ duration: 0.5 }}
         onClick={() => setClicked(true)}
         onMouseEnter={() => setClicked(true)}
         onMouseLeave={() => setClicked(false)}
-        className=" cursor-pointer exp  w-full border-2 rounded-md border-black"
+        className=" cursor-pointer exp  w-full border rounded-md border-[#9C9C9C]"
       >
         <div
           className={classNames(
@@ -48,7 +57,7 @@ export default function ExperienceBox2({
             Learn More
           </Link>
         </div>
-      </div>
+      </motion.div>
     </Tilt>
   );
 }

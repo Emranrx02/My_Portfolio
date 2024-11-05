@@ -1,3 +1,4 @@
+import AboutMe from "@/components/AboutMe/AboutMe";
 import Contact from "@/components/Contact/Contact";
 import HeaderSection from "@/components/Header/Header";
 import MyExpereience from "@/components/MyExperience/MyExperience";
@@ -13,6 +14,7 @@ export default function Home() {
     <div className="w-full">
       <NavBar />
       <HeaderSection />
+      <AboutMe />
       <MySkillSet />
       <MyExpereience />
       <Testimonials />
