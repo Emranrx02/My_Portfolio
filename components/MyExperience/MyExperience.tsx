@@ -2,6 +2,7 @@ import CoinEx from "../Icons/CoinEx";
 import KajLab from "../Icons/KajLab";
 import KTune from "../Icons/KTune";
 import LBank from "../Icons/Lbank";
+import Oracle from "../Icons/Oracle";
 import Viabtc from "../Icons/Viabtc";
 import ContentLayout from "../Layouts/ContentLayout";
 import ExperienceBox2 from "./MyExperience2";
@@ -12,7 +13,7 @@ export default function MyExpereience() {
     {
       title: "K-Tune",
       Headline: "Community Manager and Twitter Management ",
-      Text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet.",
+      Text: "K-Tune is a platform as well as a community for musicians all over the world to collaborate and freely express themselves.",
       icons: <KTune className="w-[12.5rem]" fill="none" />,
     },
     {
@@ -38,6 +39,12 @@ export default function MyExpereience() {
       Headline: "Lbank Listing Manager",
       Text: "Currently, I am managing nearly five distinct advertising campaigns for a variety of exciting projects. Each campaign is tailored to meet the unique needs and goals of its respective project, allowing us to effectively reach and engage our target audiences.",
       icons: <LBank className="w-[12.5rem]" fill="none" />,
+    },
+    {
+      title: "Free Oracle Doller",
+      Headline: "Community Relations Specialist",
+      Text: "Promoted Oracle Free Dollar (OFD) by managing community engagement and executing marketing strategies to boost user adoption. Worked with cross-functional teams to improve user experience and drive growth.",
+      icons: <Oracle className="w-[12.5rem]" fill="none" />,
     },
   ];
   return (

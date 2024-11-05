@@ -44,11 +44,7 @@ export default function Socials() {
     <ContentLayout>
       <div className="my-24 ">
         <h1 className="text-4xl font-bold text-center">Follow me </h1>
-        <p className="mt-10 mb-20 max-w-[50rem] text-center mx-auto">
-          At CM!, our Community Managers go beyond traditional management by
-          actively fostering environments that inspire excellence and create
-          opportunities for growth.
-        </p>
+
         <div className="my-10 max-w-[60rem] mx-auto gap-10 grid sm:grid-cols-2 md:grid-cols-3">
           {socialMedia.map((item) => (
             <SocialBox {...item} key={item.label} />

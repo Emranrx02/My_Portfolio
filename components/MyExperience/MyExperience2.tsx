@@ -39,7 +39,7 @@ export default function ExperienceBox2({
           )}
         >
           {icons}
-          <h1 className="text-4xl font-medium">{title}</h1>
+          <h1 className="text-2xl font-medium">{title}</h1>
         </div>
         <div
           className={classNames(
