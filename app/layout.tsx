@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     "Emran Haque | Social Media Expert - Empowering Your Social Media Success Today!",
   description:
     "Discover Emran Haque : A marketing expert driving digital growth through social media, blockchain, and strategic marketing.",
+  icons: {
+    icon: "/icon.ico",
+  },
 };
 
 export default function RootLayout({
