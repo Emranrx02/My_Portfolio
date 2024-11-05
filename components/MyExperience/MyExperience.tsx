@@ -41,7 +41,7 @@ export default function MyExpereience() {
       icons: <LBank className="w-[12.5rem]" fill="none" />,
     },
     {
-      title: "Free Oracle Doller",
+      title: "Oracle Doller",
       Headline: "Community Relations Specialist",
       Text: "Promoted Oracle Free Dollar (OFD) by managing community engagement and executing marketing strategies to boost user adoption. Worked with cross-functional teams to improve user experience and drive growth.",
       icons: <Oracle className="w-[12.5rem]" fill="none" />,
