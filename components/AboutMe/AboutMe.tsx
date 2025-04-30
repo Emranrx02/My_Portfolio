@@ -52,20 +52,13 @@ export default function AboutMe() {
           }}
           className="text-part h-full mt-auto mb-auto w-full"
         >
-          <h2 className="text-3xl font-bold mb-10">A peek into my journey.</h2>
-          <p>
-            At Viabtc Technology Limited, our team leverages my expertise in
-            blockchain and public relations to enhance our digital presence. By
-            utilizing platforms such as Telegram, Twitter, and Instagram,
-            {"we've"}
-            invigorated our online interactions and cultivated vibrant
-            communities. My ongoing education in Computer Science at Daffodil
-            International University supports my role, blending academic
-            knowledge with real-world applications. At Dexify, we are at the
-            forefront of Web 3 social investing, where my strategic marketing
-            skills play a crucial role in shaping the future of decentralized
-            finance.
-          </p>
+         <h2 className="text-3xl font-bold mb-10">A peek into my journey.</h2>
+<p>
+  My journey in the blockchain space began with a deep passion for building online communities and making decentralized technologies more approachable. Over the years, I've worked with projects like CoinEx, Oracle Free Dollar, and Dexify — helping to grow engaged communities and lead impactful campaigns.{" "}
+  Previously, I served as a community builder at ViaBTC, where I helped drive social presence and public engagement. Though I've moved on, the experience shaped my foundation in Web3.{" "}
+  Currently, I'm focusing on blending my technical education at Daffodil International University with real-world blockchain projects, empowering communities through strategic marketing, content, and growth initiatives.
+</p>
+
           <Link
             href={"https://bento.me/emranrx"}
             target="_blank"
