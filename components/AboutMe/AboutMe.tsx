@@ -67,7 +67,7 @@ export default function AboutMe() {
             finance.
           </p>
           <Link
-            href={"https://linktr.ee/emranhaque"}
+            href={"https://bento.me/emranrx"}
             target="_blank"
             className="bg-[#2B79D3] flex gap-2.5 max-w-fit items-center border border-[#205CA0] text-white px-14 py-4  font-semibold tracking-wider  mt-7 rounded-md"
           >
