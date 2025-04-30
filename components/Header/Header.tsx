@@ -20,9 +20,9 @@ export default function HeaderSection() {
             <h1 className=" font-bold mb-5 text-2xl md:text-4xl">
               Hello! My name is Emran haque.
             </h1>
-            <p className="text-sm">
-            I'm a blockchain community manager and digital marketing specialist with 5+ years of experience in Web3, crypto, and fintech. I build and grow active communities on Telegram, Discord, and Twitter through AMAs, KOL partnerships, and organic engagement. I've contributed to projects like CoinEx and Oracle Free Dollar, helping boost brand presence and user trust. My mission is to make blockchain more accessible, supportive, and engaging for everyone.
-            </p>
+            <p>
+  {"I'm a blockchain community manager and digital marketing specialist with 5+ years of experience in Web3, crypto, and fintech. I build and grow active communities on Telegram, Discord, and Twitter through AMAs, KOL partnerships, and organic engagement. I've contributed to projects like CoinEx and Oracle Free Dollar, helping boost brand presence and user trust. My mission is to make blockchain more accessible, supportive, and engaging for everyone."}
+</p>
             <Link
               href={"https://t.me/emranrx"}
               target="_blank"
