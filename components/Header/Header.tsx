@@ -21,9 +21,8 @@ export default function HeaderSection() {
               Hello! My name is Emran haque.
             </h1>
             <p className="text-sm">
-            I'm a blockchain community manager and digital marketer with 5+ years of experience in Web3 and fintech. I’ve led AMAs, KOL campaigns, and organic community growth on Telegram, Discord, and Twitter.
-             I’ve contributed to projects like CoinEx and Oracle Free Dollar, helping make blockchain more accessible, trusted, and engaging.
-        </p>
+            I'm a blockchain community manager and digital marketing specialist with 5+ years of experience in Web3, crypto, and fintech. I build and grow active communities on Telegram, Discord, and Twitter through AMAs, KOL partnerships, and organic engagement. I've contributed to projects like CoinEx and Oracle Free Dollar, helping boost brand presence and user trust. My mission is to make blockchain more accessible, supportive, and engaging for everyone.
+            </p>
             <Link
               href={"https://t.me/emranrx"}
               target="_blank"
