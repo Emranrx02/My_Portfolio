@@ -21,12 +21,11 @@ export default function HeaderSection() {
               Hello! My name is Emran haque.
             </h1>
             <p className="text-sm">
-              I have over four years of experience in marketing and managing
-              social media platforms, including Telegram, Twitter, Discord,
-              Facebook, and Shopify. With a strong skill set in team leadership,
-              target management, graphic design, and video editing, I
-              consistently drive results while inspiring teams to achieve their
-              goals.
+            I’m a blockchain community manager and digital marketing specialist with over five years of experience building and managing thriving online communities. I’ve worked in the Web3, cryptocurrency, and fintech industries, leading community engagement strategies, moderating discussions, and helping communities grow organically on platforms like Telegram, Discord, Twitter, and more.
+
+          I’ve successfully organized AMAs, managed KOL partnerships, created engagement campaigns, and handled large-scale community activations. I know how to moderate discussions, resolve conflicts, manage FUD, and provide user support to create a positive and interactive environment.
+
+            Before this, I’ve contributed to projects like CoinEx, Oracle Free Dollar, and several blockchain-based initiatives, helping to grow communities and increase brand awareness. My goal is to make blockchain technology more accessible and user-friendly so communities can be more engaged, informed, and empowered.
             </p>
             <Link
               href={"https://t.me/emranrx"}
